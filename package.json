@@ -1,17 +1,23 @@
 {
   "name": "daily robot express node",
-  "version": "",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "engine":{
+      "node":"v6.11.2"
+  },
+
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.17.2",
+    "body-parser": "^1.18.0",
     "express": "^4.15.4",
+    "express-validator": "^4.1.1",
     "mustache": "^2.3.0",
-    "mustache-e xpress": "^1.2.5",
-    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1",
-      "start": "node app.js"
-    },
-    "engine":{
-        "node":"v6.11.2"
-    }
+    "mustache-express": "^1.2.5"
   }
 }

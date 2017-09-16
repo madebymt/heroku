@@ -31,7 +31,12 @@ response.render ("users", {
 })
 })
 
-app.listen(process.env.PORT)
+const port = process.env.PORT || 5000;
+
+app.listen(port, function() {
+    console.log('Our app is running on http://localhost:' + port);
+});
+// app.listen(process.env.PORT)
 // function(){
 // console.log("Express started on port 3000")
 // })
