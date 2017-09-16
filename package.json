@@ -1,0 +1,17 @@
+{
+  "name": "daily robot express node",
+  "version": "",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "mustache": "^2.3.0",
+    "mustache-e xpress": "^1.2.5",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "node app.js"
+    },
+    "engine":{
+        "node":"v6.11.2"
+    }
+  }
+}
